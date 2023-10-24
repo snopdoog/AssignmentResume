@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&family=Sawarabi+Mincho&display=swap');
+body{
+    background-color: #F0EEED !important;
+    font-family: 'Sarala', sans-serif !important;
+
+}
+
+.container-fluid{
+    background-color: #5B8FB9 !important;
+    padding: 0.3rem !important;
+    position: sticky !important;
+    top: 0 !important;
+    position: -webkit-sticky !important;
+    position: sticky !important;
+     top: 0 !important;
+    padding: 50px;
+    font-size: 20px;
+    padding: 0.2rem !important;
+    display: flex !important;
+    position: fixed !important;
+    z-index: 1;
+}
+.navbar-nav{
+    padding: 0.2rem !important;
+    display: flex !important;
+    position: sticky !important;
+}
+.navbar{
+    
+}
+.nav-link{
+    margin-left: 1rem !important;
+    padding: 1rem !important;
+}
+.nav-link:hover{
+    background-color: #F0EEED !important;
+    color: #5B8FB9 !important;
+}
+.btn-primary{
+    background-color: #5B8FB9 !important;
+    color: #F0EEED !important;
+    border: none !important;
+}
+
+.btn-primary:hover{
+    background-color: #F0EEED !important;
+    color: #5B8FB9 !important;
+    border: none !important;
+}
+.navbar{
+    padding: 0 !important;
+}
+.MyName{
+    color: #5B8FB9;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.containerPersonal{
+    height: 120vh !important;
+    padding-top: 20px;
+}
+.linehr{
+    border: 1px solid gray;
+}
+.description{
+    font-size: 1.2rem;
+}
+.objectives{
+    border: 1px solid rgb(212, 211, 211);
+    box-shadow:  5px 10px 18px #abacac;
+    border-radius: 20px !important;
+}
+.card-img-top{
+    border-radius: 20px 20px 0  0 !important;
+}
+.card{
+    border-radius: 20px !important;
+}
+.card:hover{
+    border-radius: 20px !important;
+}
+.card-body:hover{
+    box-shadow:  5px 10px 18px #abacac;
+    cursor: pointer;
+    border-radius: 20px !important;
+
+}
+.textdescr{
+    font-size: 30px;
+    color: #5B8FB9;
+    text-decoration: underline;
+}
+.textdescrCon{
+    color: #5B8FB9;
+    text-decoration: underline;
+}
+.social-media{
+    color: #5B8FB9;
+    text-decoration: none;
+}
+.social-media:hover{
+    color: #5B8FB9;
+    text-decoration: underline;
+}
+.card-footer{
+    border: none !important;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-footer p{
+    color: #5B8FB9;
+}
